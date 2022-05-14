@@ -1,0 +1,224 @@
+.contactUs-body{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.contactUs-section-container{
+    background-image: url(../../../images/images-content/backgrounds/background_image2.png);
+    display: flex;
+    position: relative;
+    height: 110vh;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+
+.contactUs-section-container::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+}
+
+.contactUs-content{
+    position: relative;
+    display: flex;
+    min-width: 1100px;
+    min-height: 550px;
+    z-index: 1000; 
+}
+
+.contactUs-contactInfo{
+    background-color: rgba(171, 40, 97, 0.657);
+    display: flex;
+    position: absolute;
+    top: 20.5%;
+    left: -.5rem;
+    width: 350px;
+    height: calc(50% - 80px);
+    z-index: 1;
+    padding: 40px;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 20px 20px rgb(0, 0, 0, 0.2); 
+}
+
+.contactUs-contactInfo h1{
+    color: black;
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.contactUs-contactInfo-ul{
+    position: relative;
+    margin-top: -7%;
+}
+
+.contactUs-contactInfo-ul li{
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 25px 0;
+    cursor: pointer;
+    align-items: flex-start;
+} 
+
+.contactUs-contactInfo-ul li span:nth-child(1) {
+    width: 30px;
+    min-width: 30px; 
+}
+
+.contactUs-contactInfo-ul li span:nth-child(1) img{
+    max-width: 100%;
+    filter: invert(1);
+    opacity: 0.5;
+    border-radius: 40%;
+}
+
+.contactUs-contactInfo-ul li span:nth-child(2) {
+    color: #fff;
+    margin-left: 10px;
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+.contactUs-contactInfo li:hover span:nth-child(1) img,
+.contactUs-contactInfo li:hover span:nth-child(2) {
+    opacity: 1;
+}
+
+.contactUs-contactInfo-socialMedia-ul{
+    position: relative;
+    display: flex;
+    top: -5%; 
+}
+
+.contactUs-contactInfo-socialMedia-ul li{
+    list-style: none;
+    margin-right: 15px;
+}
+
+
+.contactUs-contactInfo-socialMedia-ul li img{
+    width: 50px;
+    min-width: 40px;
+    border-radius: 50%;
+}
+
+.contactUs-contactInfo-socialMedia-ul li a img{
+    max-width: 100%;
+    filter: invert(1);
+    opacity: 0.5;
+}
+
+.contactUs-contactInfo-socialMedia-ul li a{
+    text-decoration: none;
+}
+
+.contactUs-contactInfo-socialMedia-ul li:hover a img{
+    opacity: 1;
+}
+
+.contactUs-contactForm-content{
+    position: absolute;
+    top: 15%;
+    left: 16.5%;
+    padding: 85px 11rem;
+    background: linear-gradient(rgba(171, 40, 97, 0.657), rgba(255, 255, 255, 0.466));
+    width: calc(100% - 150px);
+    height: 68%;
+    box-shadow: 0 50px 50px rgb(0, 0, 0, 0.5); 
+}
+
+.contactUs-contactForm-content h1{
+    color: black;
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: underline;  
+}
+
+.contactUs-formBox{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px; 
+}
+
+
+.inputBox{
+    position: relative;
+    margin: 0 0 35px 0;
+}
+
+.inputBox.w50{
+    width: 30vw;
+}
+
+.inputBox.w100{
+    width: 100%;
+}
+
+.inputBox input, 
+.inputBox textarea {
+    width: 100% !important;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    margin-top: 3.5%;
+}
+
+.inputBox textarea {
+    min-height: 120px;
+}
+
+.inputBox span {
+    position: absolute;
+    top: -10%;
+    left: 0%;
+    padding: 5px 0;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.contactUs-contactForm-content .contactUs-formBox .inputBox input:focus ~ span,
+.contactUs-contactForm-content .contactUs-formBox .inputBox textarea:focus ~ span,
+.contactUs-contactForm-content .contactUs-formBox .inputBox input:focus:valid ~ span,
+.contactUs-contactForm-content .contactUs-formBox .inputBox textarea:focus:valid ~ span {
+    transform: translateY(-20px);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #630442;  
+}
+
+.contactUs-contactForm-content .contactUs-formBox .inputBox input[type="submit"] {
+    position: relative;
+    cursor: pointer;
+    background-color: #900C3F;
+    color: #fff;
+    border: none;
+    max-width: 250px;
+    padding: 12px;
+    height: 4.5vh;
+    text-transform: uppercase;  
+}
+
+.contactUs-contactForm-content .contactUs-formBox .inputBox input[type="submit"]:hover {
+    background-color: rgba(171, 40, 97, 0.657);
+}
+

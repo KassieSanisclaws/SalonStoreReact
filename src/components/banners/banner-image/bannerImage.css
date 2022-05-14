@@ -1,0 +1,18 @@
+.bannerImage-body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bannerImage-section-container{
+    height: 100%;
+    width: 100%;
+
+}
+
+.bannerImage{
+    background-image: url(../../../images/images-banners/banners/banner_5.png); 
+    background-position: 30% 13%;
+    background-repeat: repeat;  
+    height: 15vh;
+}

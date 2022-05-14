@@ -1,0 +1,132 @@
+.register-body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.register-section-container{
+    height: 100%;
+   width: 100%;  
+}
+
+.register-content{
+    margin: 3rem 0;
+    background-image: url(../../../images/images-content/backgrounds/background_image4.png);
+    /* background-image: url(../../../images/images-login-register/Salon_Image.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.glass-r{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.37);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.register-contentInner{
+    height: 70vh;
+    width: 33vw;
+    padding: 0 15px;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    overflow: hidden;   
+}
+
+.register-contentInner h1{
+    font-family: 'My Soul', cursive;
+    font-size: 50px;
+    margin-left: 13%;
+    width: 30vw;
+    /* color: #581845; */
+    color: #900C3F;
+}
+
+.register-contentInner-container{
+    height: 84%;
+    width: 80%;
+    position: relative;
+    top: 7%;
+    left: 11%;
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 20px; 
+}
+
+.registerForm-content .boxInput{
+    position: relative;
+    margin: -2.5rem 0 20px 13%;
+}
+
+.registerForm-content .words50{
+    height: 10.3vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.registerForm-content .boxInput input {
+    width: 88% !important;
+    padding: 5px 0;
+    font-size: 20px;
+    font-weight: 300;  
+    color: #900C3F;
+    height: 5vh;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    margin-top: 3rem;
+    background: none;
+}
+
+.registerForm-content button {
+    width: 18vw;
+    height: 5vh;
+    position: absolute;
+    top: 75.5%;
+    left: 8%;
+}
+
+.registerForm-btn p {
+    color: #900C3F;
+}
+
+.registerForm-content .boxInput span {
+    position: absolute;
+    top: 67%;
+    left: 0;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 900;
+    color: black;
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.registerForm-content .boxInput input:focus ~ span,
+.registerForm-content .boxInput input:valid ~ span {
+    transform: translateY(-40px);
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #900C3F;
+}
+
+.registerForm-btn {
+    margin-left: 2rem;
+ }
+
+.registerForm-content .login-anchor-link {
+    position: relative;
+    top: 5%;
+    left: 25%;
+    width: 13vw;
+    color: black;
+    font-weight: 900;
+}
+
+.login-link{
+    color: #900C3F;
+    font-size: 20px;
+}

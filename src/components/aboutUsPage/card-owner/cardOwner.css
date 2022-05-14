@@ -1,0 +1,66 @@
+.cardOwner-body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cardOwner-section-container{
+    height: 100%;
+    width: 100%;
+}
+
+.cardOwner-content{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;    
+}
+
+.cardOwner-content-img{
+    height: 60vh;
+    width: 30vw;
+    position: relative;
+    top: 0;
+    left: 10%; 
+}
+
+.img-cardOwner-content{
+    background-image: url(../../../images/images-aboutUs-content/Salon_image-32.png);
+    background-position: center;
+    height: 55vh;
+    width: 27vw;
+    position: relative;
+    top: 3.5%;
+    left: 5%;
+    border-radius: 13%;  
+}
+
+.cardOwner-content-inner{
+    height: 45vh;
+    width: 50vw;
+    position: relative;
+    top: 10%;
+    right: 10%;
+}
+
+.cardOwner-content-inner-p{
+    height: 35vh;
+    width: 45vw;
+    position: relative;
+    top: 10%;
+    left: 5%;
+    text-align: center;
+    text-indent: 25px;
+    font-size: 25px;
+    overflow-x: scroll;
+}
+
+.glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.37);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}

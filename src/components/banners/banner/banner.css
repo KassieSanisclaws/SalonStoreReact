@@ -1,0 +1,16 @@
+.banner-body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner-section-container{
+    height: 100%;
+    width: 100%;
+
+}
+
+.ban{
+    background-color: #900c3f44;
+    height: 2vh; 
+}

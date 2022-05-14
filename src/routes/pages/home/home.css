@@ -1,0 +1,15 @@
+.home-body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-components{
+/* background-color: aquamarine; */
+}
+
+.home-section-container{
+    /* background-color: darkseagreen; */
+    width: 100%;
+    margin: 5rem 0;
+}

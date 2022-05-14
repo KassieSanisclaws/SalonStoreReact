@@ -1,24 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import TopBar from "./components/headers/topbar/topbar";
+import "./App.css";
+import Home from "./routes/pages/home/home";
+import Login from "./routes/pages/login/login";
+import Register from "./routes/pages/register/register";
+import ContactUs from "./routes/pages/contactUs/contactUs";
+import Favourites from "./routes/pages/favourites/favourites";
+import AboutUs from "./routes/pages/aboutUs/aboutUs";
+import ProtectedRoutes from "./routes/protectedRoutes/protectedRoutes";
+import Footer from "./components/footers/footer";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+const App = () => { 
+
+  return (  
+  <BrowserRouter>
+      <div className="grid-section-container">
+        <header>
+          <div className="header-content">
+             <TopBar/>
+          </div>     
+        </header>
+         
+         <main>
+          <Routes>
+                  <Route path="/" index  element={<Home/>}/>
+                  <Route path="/login" element={<Login/>}/>
+                  <Route path="/register" element={<Register/>}/>
+                   <Route path="/contactUs" element={<ContactUs/>}/>
+                   <Route path="/aboutUs" element={<AboutUs/>}/>
+              <Route element={<ProtectedRoutes exact path="/"/>}>
+                  <Route path="/favourites" element={<Favourites />}/>
+                  
+              </Route> 
+           </Routes>
+         </main>
+
+        <footer><Footer/></footer>
+      </div>
+ </BrowserRouter>
   );
 }
 

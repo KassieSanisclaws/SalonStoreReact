@@ -1,0 +1,19 @@
+.bannerImageCopy-body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bannerImageCopy-section-container{
+    height: 100%;
+    width: 100%;
+
+}
+
+.bannerImageCopy{
+    background-image: url(../../../images/images-banners/banners/banner_5.png); 
+    background-position: 30% 13%;
+    background-repeat: repeat;  
+    height: 15vh;
+    margin-top: -10rem;
+}

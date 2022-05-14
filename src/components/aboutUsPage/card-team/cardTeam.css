@@ -1,0 +1,117 @@
+.cardTeam-body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cardTeam-section-container{
+    height: 100%;
+    width: 100%;
+    margin: 10rem 0;
+}
+
+.cardTeam-content{
+    width: 100%;
+    height: 100%;
+}
+
+.cardTeam-content h3{
+    font-size: 45px;
+    color: #333;
+    text-align: center;
+    margin: 50px auto 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cardTeam-content-row{
+    width: 85%;
+    height: 45vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.cardTeam-content-col{
+    flex-basis: 30%;
+    overflow: hidden; 
+}
+
+.cardTeam-content-card{
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.cardTeam-content-cardBox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.cardBox-card-front{
+    background-position: cover;
+    background-size: cover;
+}
+
+.cardBox-card-front, .cardBox-card-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}  
+
+.front-1 {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../../../images/images-banners/banners/banner_7.png);
+}
+
+.front-2 {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../../../images/images-banners/banners/banner_6.png);
+}
+
+.front-3 {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../../../images/images-banners/banners/banner_5.png);
+}
+
+.cardBox-card-front span {
+    display: inline-block;
+    width: 100px;
+    padding: 14px 0;
+    margin-top: 160px;
+    border-radius: 4px;
+    background: #900C3F;
+    color: #333;
+}
+
+.cardBox-card-back{
+    background-color: tomato;
+    transform: rotateX(180deg);
+}
+
+.cardTeam-content-card:hover .cardTeam-content-cardBox{
+    transform: rotateX(-180deg);
+}
+
+.cardTeam-content-card:hover span {
+    transform: translateY(7px);
+}
+
+.cardBox-card-back p {
+    display: inline-block;
+    color: #fff;
+    padding-bottom: 10px; 
+    border-bottom: 2px solid #fff;
+    margin-top: 140px;
+}
+
+.cardBox-card-back-socialMedia img {
+    width: 30px;
+    margin: 10px 5px;
+}

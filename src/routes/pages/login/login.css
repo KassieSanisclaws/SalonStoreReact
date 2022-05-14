@@ -1,0 +1,137 @@
+.login-body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-section-container{
+   height: 100%;
+   width: 100%; 
+}
+
+.login-content{
+    margin: 3rem 0;
+    background-image: url(../../../images/images-content/backgrounds/background_image.png);
+    /* background-image: url(../../../images/images-login-register/Salon_Image.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.glass-l{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.37);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.login-contentInner{
+    height: 70vh;
+    width: 30vw;
+    padding: 0 15px;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    overflow: hidden;   
+}
+
+.login-contentInner h1{
+    font-family: 'My Soul', cursive;
+    font-size: 50px;
+    margin-left: 21%;
+    width: 30vw;
+    /* color: #581845; */
+    color: #900C3F;
+}
+
+.login-contentInner-container{
+    height: 80%;
+    width: 80%;
+    position: relative;
+    top: 7%;
+    left: 11%;
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 20px; 
+}
+
+.loginForm-content{
+    height: 100%;
+    width: 100%;  
+}
+
+.loginForm-content .inputBox{
+    position: relative;
+    margin: -2rem 0 35px 13%;
+}
+
+.loginForm-content .w50{
+    height: 10.3vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.loginForm-content .inputBox input {
+    width: 58% !important;
+    padding: 5px 0;
+    font-size: 20px;
+    font-weight: 300;  
+    color: #900C3F;
+    height: 5vh;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    margin-top: 3rem;
+    background: none;
+}
+
+.loginForm-content button {
+    width: 18vw;
+    height: 5vh;
+    position: absolute;
+    top: 77%;
+    left: 10%;
+}
+
+.loginForm-btn p {
+    color: #900C3F;
+}
+
+.loginForm-content .inputBox span {
+    position: absolute;
+    top: 67%;
+    left: 0;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 900;
+    color: black;
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.loginForm-content .inputBox input:focus ~ span,
+.loginForm-content .inputBox input:valid ~ span {
+    transform: translateY(-40px);
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #900C3F;
+}
+
+.loginForm-content .register-anchor-link {
+    position: relative;
+    top: 5%;
+    left: 28%;
+    width: 11vw;
+    color: black;
+    font-weight: 900;
+}
+
+.register-link{
+    color: #900C3F;
+    font-size: 20px;
+}
+
+.loading {
+    display: block !important;
+  }

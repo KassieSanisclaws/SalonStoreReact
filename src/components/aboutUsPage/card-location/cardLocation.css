@@ -1,0 +1,58 @@
+.cardLocation-body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cardLocation-section-container{
+    height: 100%;
+    width: 100%;
+
+}
+
+.cardLocation-content{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 2rem;  
+}
+
+.img-cardLocation-image{
+    background-image: url(../../../images/images-aboutUs-content/Salon_image-30.png);
+   height: 50vh;
+   width: 85vw;
+   position: relative;
+   top: 0;
+   left: 6.5%;
+   border-radius: 20px;
+}
+
+.cardLocation-content-inner{
+    height: 20vh;
+    width: 74.8vw;
+    position: relative;
+    top: 0;
+    left: 12.5%;
+}
+
+.glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.37);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.cardLocation-content-inner-p{
+    height: 7.3vh;
+    width: 70vw;
+    position: relative;
+    top: 28%;
+    left: 3.2%;
+    text-align: center;
+    text-indent: 25px;
+    font-size: 28px;
+}

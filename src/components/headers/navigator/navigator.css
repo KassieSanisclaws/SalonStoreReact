@@ -1,0 +1,70 @@
+.navigator-body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigator-section-container{
+    width: 100%;
+    height: 100%;
+}
+
+.navigator-content{
+    display: flex;
+    padding: 0 20px;
+    margin-bottom: .3rem;
+}
+
+.hamburger-menu label {  
+    width: 31px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.hamburger-menu span {
+    background-color: #9abb5e;
+    width: 100%;
+    height: 3px;
+    transform-origin: left;
+    transition: all 0.3s ease 0s;
+}
+
+.navigator-links-content{
+    display: flex;
+    padding: 0 15px;
+    grid-gap: 15rem;
+
+}
+
+.navigator-links ul {
+    width: 65vw;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    list-style: none;
+    
+}
+
+.navigator-links ul li a {
+   font-size: 13.5px;
+   transition: all 0.3s ease 0s;
+}
+
+.navigator-links ul li a:hover {
+   color: #9abb5e;
+   
+ }
+
+.navigator-links li {
+    width: 100%;
+    
+}
+
+.navigator-company-slogan {
+    background-color: sandybrown;
+    width: 13vw;
+
+}
