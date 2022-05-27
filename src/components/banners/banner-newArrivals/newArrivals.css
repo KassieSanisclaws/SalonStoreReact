@@ -1,0 +1,44 @@
+.newArrivals-body{
+    height: 100%;
+    width: 100%;
+}
+
+.newArrivals-section{
+    height: 100%;
+    width: 100%;
+}
+
+.newArrivals-section-content{
+    /* border: 4px solid olive; */
+    display: grid;
+    grid-template-rows: auto;  
+    grid-gap: 2rem;
+}
+
+.newArrivals-header{
+    /* border: 4px solid maroon; */
+    height: 10vh;
+    width: 40vw;
+    overflow: hidden;
+    position: relative;
+    left: 30%;
+}
+
+.newArrivals-inner-content{
+    /* border: 4px solid indigo; */
+    width: 67.8vw;
+    height: 50vh;
+    position: relative;
+    left: 14%;
+    overflow: hidden;
+    
+}
+
+.newArrivals-img img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: -20rem;
+}
+
+

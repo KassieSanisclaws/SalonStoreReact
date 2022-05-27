@@ -1,0 +1,28 @@
+.bbHotListItem-body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bbHotListItem-section{
+    height: 43.8vh;
+    width: 100%;
+    position: relative;
+    left: 14.5%;
+    margin-top: 10rem;
+}
+
+.bbHotListItem-section-container{
+   height: 100%;
+   width: 67.8vw;
+   /* border: 3px solid green; */
+}
+
+.bbHotListItem-content{
+    /* border: 3px solid royalblue; */
+    height: 43vh;
+    background-image: url(../../../images/images-home/sales_image_6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

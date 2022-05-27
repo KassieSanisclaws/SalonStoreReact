@@ -10,6 +10,7 @@ import Favourites from "./routes/pages/favourites/favourites";
 import AboutUs from "./routes/pages/aboutUs/aboutUs";
 import ProtectedRoutes from "./routes/protectedRoutes/protectedRoutes";
 import Footer from "./components/footers/footer";
+import HotListItemScreen  from "./routes/pages/screens/hotListItems-screen/hotListItemScreen";
 
 
 const App = () => { 
@@ -30,7 +31,8 @@ const App = () => {
                   <Route path="/register" element={<Register/>}/>
                    <Route path="/contactUs" element={<ContactUs/>}/>
                    <Route path="/aboutUs" element={<AboutUs/>}/>
-              <Route element={<ProtectedRoutes exact path="/"/>}>
+                   <Route path="/hotListItem/:id" element={<HotListItemScreen/>}/>
+                  <Route element={<ProtectedRoutes exact path="/"/>}>
                   <Route path="/favourites" element={<Favourites />}/>
                   
               </Route> 

@@ -1,0 +1,43 @@
+.hotListItemButton-body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hotListItemButton-section{
+    height: 100%;
+    width: 100%;
+    /* border: 4px solid crimson; */
+}
+
+.hotListItemButton-section-container{
+    /* border: 4px solid springgreen; */
+    height: 100%;
+    width: 30vw;
+    position: relative;
+    left: 35%;
+}
+
+.hotListItemButton-content{
+    /* border: 4px solid hotpink; */
+    height: 5.5vh;
+    width: 6.5vw;
+    position: relative;
+    left: 38%;
+}
+
+.hotListItemButton-content button{
+    /* border: 4px solid #900C3F; */
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+    margin: -1.5rem 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.hotListItemButton-content button:hover{
+    background-color: #900c3f3c;
+}

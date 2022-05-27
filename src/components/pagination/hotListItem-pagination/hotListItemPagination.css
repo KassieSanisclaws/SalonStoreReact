@@ -1,0 +1,94 @@
+.hotListItemPagination-body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hotListItemPagination-section{
+    height: 100%;
+    width: 100%;
+    margin: 0 13.8rem;
+}
+
+.hotListItemPagination-section-container{
+    height: 100%;
+    width: 73vw;
+}
+
+.hotListItemPagination-tabs{
+    /* border: 3px solid goldenrod; */
+    height: 8vh;
+    position: relative;
+}
+
+.hotListItemPagination-tabs .tabs-target{
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+    box-sizing: content-box;
+}
+
+.hotListItemPagination-tabs .tabs-target:not(:last-child){
+    /* border-right: 1px solid rgba(0, 0, 0, 0.274);  */
+}
+
+.hotListItemPagination-tabs .active-tabs-target{
+    /* background: rgb(209, 18, 18); */
+    border-bottom: 7px solid crimson;
+}
+
+.hotListItemPagination-tabs .active-tabs-target::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    /* width: calc(100% + 2px); */
+    height: 25px;
+  }
+
+.hotListItemPagination-tabs ul{
+   display: flex;
+   justify-content: space-evenly;
+   list-style: none;
+}
+
+.hotListItemPagination-tabs li{
+   border: 4px solid forestgreen;
+   width: 6vw;
+   height: 5vh;
+   border-radius: 8px;
+   margin: .7rem 0;
+}
+
+.hotListItemPagination-tabs li p{
+   color: blue;
+   font-size: 25px;
+   margin-top: .7rem;
+   text-align: center;
+}
+
+.hotListItemPagination-tabContent{
+    /* border: 4px solid violet; */
+    height: 100%;
+    position: relative;
+    flex-grow: 1;
+    /* overflow: hidden; */
+}
+
+.hotListItemPagination-tabContent .tabs-content{
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: none;  
+}
+
+.hotListItemPagination-tabContent .tabs-content p{
+    width: 100%;
+    height: 100%;
+}
+
+.hotListItemPagination-tabContent .active-tabs-content {
+    display: block;
+}
+

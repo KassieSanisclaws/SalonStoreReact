@@ -1,0 +1,64 @@
+.hotListTabs-body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hotListTabs-section{
+   height: 100%;
+   width: 100%;
+}
+
+.hotListTabs-section-container{
+  height: 40.2vh;
+}
+
+.hotListTabs-inner-content{
+  /* border: 3px solid violet; */
+  height: 40.2vh;
+}
+
+.hotListItems{
+  margin: 1rem 0;
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  text-align: center;   
+}
+
+.hotListItems li{
+  height: 20.8rem;
+  border-bottom: 0.2rem #900C3F solid; 
+}
+
+.hotListItem img {
+  max-height: 14.5rem;
+  height: 17rem;
+  width: 15vw;
+  max-width: 15rem;
+  border: 2px solid #900C3F;
+}
+
+.hotListItem-name a{
+  color: rgb(255, 0, 0);
+}
+
+.hotListItem-price span{
+   font-size:  1.2rem;  
+}
+
+.hotListItem-price{
+  color: black;
+}
+
+.hotListItem-ratings{
+  color: black;
+}
+
+.hotListItem-ratings i{
+  color: #900C3F;
+}
+
+

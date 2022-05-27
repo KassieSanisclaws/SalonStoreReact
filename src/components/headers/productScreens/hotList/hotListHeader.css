@@ -1,0 +1,24 @@
+.hotListHeader-body{
+    height: 100%;
+    width: 100%;
+    border: 4px solid hotpink;
+}
+
+.hotListHeader-section{
+    height: 100%;
+    width: 100%;
+    border: 4px solid goldenrod;
+
+}
+
+.hotListHeader-section-container{
+    height: 100%;
+    width: 100%;
+    border: 4px solid khaki;
+
+}
+
+.hotListHeader-content{
+    border: 4px solid lawngreen;
+    
+}

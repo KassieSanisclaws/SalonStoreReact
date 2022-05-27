@@ -1,0 +1,22 @@
+.hotListItemSelection-body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hotListItemSelection-section{
+    height: 100%;
+    width: 100%;
+}
+
+.hotListItemSelection-section-container{
+    /* border: 4px solid seagreen; */
+    height: 100%;
+    width: 100%;
+
+}
+
+.hotListItemSelection-content{
+    /* border: 4px solid khaki; */
+    height: 100%;
+}

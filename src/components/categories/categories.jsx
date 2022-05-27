@@ -1,3 +1,4 @@
+import { CategpriesTabs } from "../tabs/categories-tabs/categoriesTabs";
 import "./categories.css";
 
 export const Categories = () => {
@@ -7,7 +8,7 @@ export const Categories = () => {
                <div className="categories-section-container">
                      <h1>Categories</h1>
                        <div className="categories-inner">
-                          
+                          <CategpriesTabs/>
                     </div>
                </div>
            </div>

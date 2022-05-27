@@ -1,0 +1,27 @@
+.hotListItemBanner-body{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;   
+}
+
+.hotListItemBanner-section{
+    /* border: 3px solid violet; */
+    height: 100%;
+    width:  100%;
+    margin: .8rem 13.8rem;
+    
+}
+
+.hotListItemBanner-section-container{
+   /* border: 3px solid navy; */
+   height: 13vh;
+   width: 75vw;
+  
+}
+
+.hotListItemBanner-content{
+    border: 4px solid black;
+    height: 12.4vh;
+    width: 73vw;
+}
+

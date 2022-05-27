@@ -1,0 +1,54 @@
+.hotItems-body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hotItems-section{
+    height: 100%;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.hotItems-section-container{
+    height: 58vh;
+    width: 100%;
+    /* border: 3px solid darkgreen; */
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.hotItems-section-container h1{
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hotItems-inner{
+    /* border: 3px solid red; */
+    height: 48vh;
+}
+
+.hotItems-inner-content{
+    /* border: 3px solid blue; */
+    height: 47.3vh;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+}
+
+.hotItems-counter{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 80rem;
+    border: 3px solid purple;
+    height: 5.8vh;
+}
+
+.hotItems-counter h3{
+    font-size: 40px;
+}
+
+.hotItems-cards{
+    /* border: 3px solid greenyellow; */
+    height: 41vh;
+}

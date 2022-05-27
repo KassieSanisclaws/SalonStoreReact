@@ -1,0 +1,60 @@
+.trendingStylesBanner-body{
+   height: 100%;
+   width: 100%;
+
+}
+
+.trendingStylesBanner-section{
+   height: 100%;
+   width: 100%;
+}
+
+.trendingStylesBanner-section-container{
+   height: 100%;
+   width: 100%;
+}
+
+.trendingStylesBanner-content{
+    /* border: 4px solid lightsalmon; */
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 2rem
+}
+
+.trendingStylesBanner-header{
+    text-transform: uppercase;
+}
+
+.trendingStylesBanner-inner-content{
+    /* border: 4px solid chocolate; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 3rem 0;
+    grid-gap: -2rem;
+    width: 85vw;
+    overflow: hidden;
+    margin-left: 6.5%;
+}
+
+.trendingStylesBanner-img-content{
+   /* border: 4px solid crimson; */
+   height: 43vh;
+   width: 18vw;
+   overflow: hidden;
+   margin-left: 7.5%;
+}
+
+.trendingStylesBanner-img-content h1{
+   text-transform: uppercase;
+   font-size: 33px;
+}
+
+
+.trendingStylesBanner-img-content img{
+    width: 15vw;
+    height: 30vh;
+    /* border: 4px solid yellowgreen; */
+    border-radius: 50%;
+    position: relative;
+    left: 7%;
+}
