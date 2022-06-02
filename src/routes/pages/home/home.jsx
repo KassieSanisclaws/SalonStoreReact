@@ -13,6 +13,7 @@ import DropDownMenu from "../../../components/headers/dropDown-menu/dropDownMenu
 import Navigator from "../../../components/headers/navigator/navigator";
 import HiSummer from "../../../components/hi-summer/hiSummer";
 import { HotItems } from "../../../components/hot-items/hotItems";
+import ServiceLinks from "../../../components/serviceLinks/serviceLinks";
 import { CarouselDataSlider }  from "../../../data/carousel-data/carouselData";
 import "./home.css";
 
@@ -57,6 +58,7 @@ const Home = () => {
                <br/>
                <br/>
                <ClearanceBanner/>
+               <ServiceLinks/>
          </div>
      </div>
 )};

@@ -1,0 +1,41 @@
+.serviceLinks-body{
+    height: 100%;
+    width: 100%;
+}
+
+.serviceLinks-section{
+    height: 100%;
+    width: 100%;
+    margin: -2.3rem 0;
+}
+
+.serviceLinks-section-container{
+    height: 100%;
+    width: 100%;
+    border-top: 4px solid lightgray;
+}
+
+.serviceLinks-section-content{
+    /* border: 4px solid cornflowerblue; */
+    height: 25vh;
+    width: 70vw;
+    position: relative;
+    left: 13%;
+}
+
+.serviceLinks-cards{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+}
+
+.serviceLinks-card{
+    border-left: 4px solid blue;
+    height: 20vh;
+    width: 11.5vw;
+    margin: 2.8rem 0;
+    justify-self: center;
+}
+
+

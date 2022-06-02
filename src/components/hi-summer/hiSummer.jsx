@@ -1,9 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import CarouselDisplayData from "../../data/carousel-data/carouselDisplayData";
 import HiSummerDisplayData from "../../data/hiSummer-data/hiSummerDisplayData";
+import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
 import "./hiSummer.css";
 
 const HiSummer = () => {
+ const [current, setCurrent] = useState(1);
+ const length = CarouselDisplayData.carouselDisplay.length;
+ const nextImage = () => {
+     setCurrent(current === length -0 ? 1 : current + 1);
+ };
+ const prevImage = () => {
+     setCurrent(current === 1 ? length - 1 : current - 1);
+ };
+ if (!Array.isArray(CarouselDisplayData.carouselDisplay) || CarouselDisplayData.carouselDisplay.length <= 0){
+    return null;
+}
    return(
       <div className="hiSummer-body">
           <div className="hiSummer-section">
@@ -12,8 +25,25 @@ const HiSummer = () => {
                      <h1>H! Summer:</h1>
                   </div>
                   <div className="hiSummer-carousel">
-                    <p>carousel content Here:</p>
-                    
+                      <FaArrowAltCircleLeft className="left-arrow" onClick={prevImage}/>
+                      <FaArrowAltCircleRight className="right-arrow" onClick={nextImage}/>
+                      <div  className="hiSummer-carousel-innerContent">                
+                         {
+                         CarouselDisplayData.carouselDisplay.map(carouselDisplay => {
+                             return(
+                                   <div  key={carouselDisplay._id} className={carouselDisplay._id === current ? "slide active" : "slide"}> 
+                                   {carouselDisplay._id === current && (
+                                       <Link to={`/newDesigns/${carouselDisplay._id}`}>
+                                    <div className="hiSummer-carousel-contentImg">
+                                        <img src={carouselDisplay.image} alt={carouselDisplay.name}/>
+                                    </div>
+                                </Link>    
+                                   )}   
+                            </div>
+                             )
+                         })           
+                         }
+                      </div>
                   </div>
                   <div className="hiSummer-inner-content">
                       <div className="hiSummer-img1">

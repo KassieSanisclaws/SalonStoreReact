@@ -1,31 +1,16 @@
 .categories-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.categories-section{
     height: 100%;
     width: 100%;
     margin-top: 2rem;
 }
 
-.categories-section-container{
-    height: 55vh;
+.categories-section{
+    height: 100%;
     width: 100%;
-
-}
-
-.categories-section-container h1{
-    color: rgb(0, 0, 0);
-    font-size: 75px;
-
 }
 
 .categories-inner{
-    height: 35vh;
-    width: 80vw;
-    position: relative;
-    top: 15%;
-    left: 9%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }

@@ -12,8 +12,8 @@
 
 .hotItems-section-container{
     height: 58vh;
-    width: 100%;
-    /* border: 3px solid darkgreen; */
+    /* width: 100%;
+    border: 3px solid darkgreen; */
     display: grid;
     grid-template-rows: repeat(2, 1fr);
 }
