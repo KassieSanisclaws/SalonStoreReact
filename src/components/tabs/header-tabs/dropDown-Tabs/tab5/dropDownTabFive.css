@@ -1,0 +1,149 @@
+.dropDownTabFive-body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+.dropDownTabFive-section-container{
+    height: 100%;
+    width: 6.4vw;
+}
+
+.dropDownTabFive-section-content{
+   width: 6.4vw;
+   /* border: 4px solid mediumpurple; */
+}
+
+/* .dropDownTabOne-section-content ul{
+    border: 4px solid teal;
+    width: 5vw;
+} */
+
+.dropDownTabFive-tab{
+    position: relative;
+    height: 100%;
+    width: 6.4vw;
+}
+
+.dropDownTabFive-tab h2{
+    /* border: 4px solid navy; */
+    font-size: 19px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    color: #900C3F;
+    font-weight: 600;
+}
+
+.dropDownTabFive-tab h2:hover {
+    color: #9abb5e;
+}
+
+.dropDownTabFive-header h3{
+    color: #900C3F;
+    margin-left: 55.6%;
+    font-size: 23px;
+    position: relative;
+    top: 0;
+    left: -17.9rem;
+    width: 8vw;
+    margin-bottom: .5rem;
+}
+
+.dropDownTabFive-content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    justify-content: center;
+    display: flex;
+    height: 40vh; 
+    /* border: 4px solid teal; */
+    margin: 0 15px;
+    padding: 20px;
+}
+
+.dropDownTabFive{
+    /* border: 4px solid crimson; */
+    position:absolute;
+    top: calc(100% + .78rem);
+    left: -52rem;
+    background-color: white;
+    padding: .75rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
+    opacity: 1;
+    z-index: 10;
+    transform: translateY(-10px);
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out ;
+    /* border: 4px solid crimson; */
+    width: 97.7vw;
+    overflow: hidden;
+}
+
+.dropDownTabFive-content-links{
+    border-left: 4px solid grey;
+    overflow: hidden;
+    width: 21vw;
+}
+
+.dropDownTabFive-content-links ul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px;
+    margin: 0 20px;
+    overflow: hidden;
+    grid-gap: .5rem;
+ }
+
+.dropDownTabFive-content-img{
+   border-left: 4px solid grey;
+}
+
+.dropDownTabFive-content-img img{
+    width: 13vw;
+    height: 37vh;
+    margin: 0 15px;
+    padding: 10px; 
+}
+
+.dropDownTabFive-content-img2{
+    border-left: 4px solid grey;
+}
+
+.dropDownTabFive-content-img2 img{
+    width: 13vw;
+    height: 37vh;
+    margin: 0 15px;
+    padding: 10px; 
+}
+
+.dropDownTabFive-content-category{
+    overflow: hidden;
+    width: 7vw;
+}
+
+.dropDownTabFive-content-style{
+    overflow: hidden;
+    width: 7vw;
+}
+
+.dropDownTabFive-content-img3{
+    border-left: 4px solid grey;
+}
+
+.dropDownTabFive-content-img3 img{
+    width: 13vw;
+    height: 37vh;
+    margin: 0 15px;
+    padding: 10px; 
+}
+
+.dropDownTabFive-content-img4{
+    border-left: 4px solid grey;
+}
+
+.dropDownTabFive-content-img4 img{
+    width: 13vw;
+    height: 37vh;
+    margin: 0 15px;
+    padding: 10px; 
+}

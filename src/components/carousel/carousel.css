@@ -7,7 +7,6 @@
 .carousel-section{
     height: 100%;
     width: 100%;
-    border: 2px solid black;
     position: relative;
     top: -3rem;
 }
@@ -32,10 +31,17 @@
     top: 50%;
     right: 22px;
     font-size: 4rem;
-    color: rgb(205, 40, 40);
-    z-index: 10;
+    color: whitesmoke;
+    z-index: 5;
     cursor: pointer;
     user-select: none;
+}
+.right-arrow:hover{
+    color: rgba(128, 128, 128, 0.414);   
+}
+
+.left-arrow:hover{
+    color: rgba(128, 128, 128, 0.414);   
 }
 
 .left-arrow{
@@ -43,8 +49,8 @@
     top: 50%;
     left: 22px;
     font-size: 4rem;
-    color: rgb(205, 40, 40);
-    z-index: 10;
+    color: whitesmoke;
+    z-index: 5;
     cursor: pointer;
     user-select: none;
 }

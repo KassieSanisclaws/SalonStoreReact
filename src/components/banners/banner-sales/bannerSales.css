@@ -13,11 +13,13 @@
 }
 
 .bannerSales-section-container{
+    /* border: 4px solid crimson; */
     background-color: #d5d8dc57;
     height: 21vh;
     width: 80vw;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    overflow: hidden;
 }
 
 .bannerSales-card {
@@ -58,7 +60,7 @@
 }
 
 .bannerSales-section-container h1{
-  color: crimson;
+  color: #900C3F;
   text-align: center;
   position: relative;
   top: 10%;

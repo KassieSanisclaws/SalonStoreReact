@@ -1,3 +1,5 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import "./hotListItemButton.css";
 
 
@@ -7,7 +9,10 @@ const HotListItemButton = () => {
             <div className="hotListItemButton-section">
                  <div className="hotListItemButton-section-container">
                      <div className="hotListItemButton-content">
-                        <button>View More:</button>  
+                         <Link to="/login">
+                         <button className="hotListItemButton-content-h3"><h3>View More</h3></button>  
+                         </Link>
+                        
                      </div>  
                  </div>
             </div>

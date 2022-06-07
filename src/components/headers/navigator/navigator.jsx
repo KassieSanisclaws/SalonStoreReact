@@ -1,4 +1,11 @@
 import React from "react";
+import DropDownTabOne from "../../tabs/header-tabs/dropDown-Tabs/tab1/dropDownTabOne";
+import DropDownTabTwo from "../../tabs/header-tabs/dropDown-Tabs/tab2/dropDownTabTwo";
+import DropDownTabThree from "../../tabs/header-tabs/dropDown-Tabs/tab3/dropDownTabThree";
+import DropDownTabFour from "../../tabs/header-tabs/dropDown-Tabs/tab4/dropDownTabFour";
+import DropDownTabFive from "../../tabs/header-tabs/dropDown-Tabs/tab5/dropDownTabFive";
+import DropDownTabSix from "../../tabs/header-tabs/dropDown-Tabs/tab6/dropDownTabSix";
+import DropDownTabSeven from "../../tabs/header-tabs/dropDown-Tabs/tab7/dropDownTabSeven";
 import "./navigator.css";
 
 
@@ -14,13 +21,13 @@ const Navigator = () => {
                    <div className="navigator-links-content">
                        <div className="navigator-links">
                             <ul>
-                               <li><a href="/">New Releases</a></li>
-                               <li><a href="/">Fashion</a></li>
-                               <li><a href="/">Deals</a></li>
-                               <li><a href="/">Bookings</a></li>
-                               <li><a href="/">Reviews</a></li>
-                               <li><a href="/">Franchise</a></li>
-                               <li><a href="/">What's New</a></li>
+                               <DropDownTabOne/>
+                               <DropDownTabTwo/>
+                               <DropDownTabThree/>
+                               <DropDownTabFour/>
+                               <DropDownTabFive/>
+                               <DropDownTabSix/>
+                               <DropDownTabSeven/>
                             </ul>
                        </div>
                     <div className="navigator-company-slogan">

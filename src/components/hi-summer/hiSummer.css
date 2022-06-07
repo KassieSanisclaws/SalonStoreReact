@@ -25,7 +25,12 @@
     z-index: 10;
     cursor: pointer;
     user-select: none;
-    
+    opacity: .2;
+}
+
+.hiSummer-carousel .right-arrow:hover{
+    color: rgb(232, 241, 237);
+    opacity: 1;
 }
 
 .hiSummer-carousel .left-arrow{
@@ -37,6 +42,12 @@
     z-index: 10;
     cursor: pointer;
     user-select: none;
+    opacity: .2;
+}
+
+.hiSummer-carousel .left-arrow:hover{
+    color: rgb(232, 241, 237);
+    opacity: 1;
 }
 
 .hiSummer-carousel{
