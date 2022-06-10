@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import Hamburger from "../../hamburger/hamburger";
 import DropDownTabOne from "../../tabs/header-tabs/dropDown-Tabs/tab1/dropDownTabOne";
 import DropDownTabTwo from "../../tabs/header-tabs/dropDown-Tabs/tab2/dropDownTabTwo";
 import DropDownTabThree from "../../tabs/header-tabs/dropDown-Tabs/tab3/dropDownTabThree";
@@ -10,12 +11,17 @@ import "./navigator.css";
 
 
 const Navigator = () => {
+
     return(
       <div className="navigator-body">
           <div className="navigator-section-container">
               <div className="navigator-content">
                    <div className="hamburger-menu">
-                      <label><span></span><span></span><span></span><span></span></label>
+                       {/* <span/>
+                       <span/>
+                       <span/>
+                       <span/> */}
+                       <Hamburger/>
                    </div>
 
                    <div className="navigator-links-content">

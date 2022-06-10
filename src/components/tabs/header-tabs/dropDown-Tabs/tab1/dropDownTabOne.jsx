@@ -20,7 +20,7 @@ const hideDropDownTabOne = () =>{
                         <h2>New Releases</h2>
                        {dropDownTabOne ? (  <div className="dropDownTabOne"  onMouseEnter={showDropDownTabOne}>                   
                                <div className="dropDownTabOne-header"><h3>New Releases</h3></div>
-                                   <div className="dropDownTabOne-content">
+                                   <div className="dropDownTabOne-content">  
                                       <div className="dropDownTabOne-content-img">
                                         <img src={Image2} alt="/"/>
                                       </div>
