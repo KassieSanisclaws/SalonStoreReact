@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { MenuItems } from "../menu-items/menuItems";
 import "./hamburger.css";
 
 const Hamburger = () =>{
@@ -15,6 +16,9 @@ const showHamburgerDisplay = () => setHamburgerDisplayOpen(!hamburgerDisplayOpen
                       <span  className={hamburgerDisplayOpen ? "rotate-hamburger-lastChild active" : "rotate-hamburger"}/>
                 </div>
                  <div className={hamburgerDisplayOpen ? "hamburger-menu active" : "hamburger-menu"}>
+                    {/* <div className="hamMenuItems-header">
+                        <h2>header</h2>    
+                    </div> */}
                      <ul className="hamburger-menuItems">
                          <div>
                              <h1>Header section</h1>
@@ -51,7 +55,7 @@ const showHamburgerDisplay = () => setHamburgerDisplayOpen(!hamburgerDisplayOpen
                         <li>another section tag2</li>
                         <li>another section tag3</li> 
                        </div>
-                        
+                        <MenuItems/>
                      </ul> 
                  </div>
             

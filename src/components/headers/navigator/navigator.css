@@ -50,8 +50,10 @@
 }
 
 .navigator-company-slogan {
-    background-color: sandybrown;
-    width: 13vw;
-
+    width: 18vw;
 }
 
+.navigator-company-slogan h3{
+   font-family: 'My Soul', cursive;
+   font-size: 20px;
+}

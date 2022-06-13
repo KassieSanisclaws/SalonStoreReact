@@ -16,16 +16,51 @@ h1{
   text-align: center;
   position: relative;
   top: 10%;
-  font-size: 45px;
+  font-size: 41px;
   text-transform: uppercase;    
+  font-family: Arial, Helvetica, sans-serif; 
 }
 
-li, a, p, button {
+h1:hover{
+  color:#4D0B2A;
+}
+
+h2{
+  color: #900C3F;
+  font-size: 18px;
+  text-transform: uppercase;    
+  font-family: Arial, Helvetica, sans-serif; 
+  cursor: pointer;
+}
+
+h2:hover{
+  color:#4D0B2A;
+}
+
+h3{
+  color: #900C3F;
+  font-size: 18px;
+  text-transform: uppercase;    
+  font-family: Arial, Helvetica, sans-serif; 
+  cursor: pointer;
+}
+
+h3:hover{
+  color:#4D0B2A;
+}
+
+
+li, a, p, button{
   text-decoration: none;
   font-weight: 550;
-  font-size: 16.5px;
+  font-size: 17.5px;
   color: #900C3F;
   font-family: Arial, Helvetica, sans-serif; 
+  cursor: pointer;
+}
+
+li:hover{
+  color:#4D0B2A;
 }
 
 header {

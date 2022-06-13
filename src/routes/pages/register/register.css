@@ -11,7 +11,7 @@
 
 .register-content{
     margin: 3rem 0;
-    background-image: url(../../../images/images-content/backgrounds/background_image4.png);
+    background-image: url(../../../images/images-background/background_image8.png);
     /* background-image: url(../../../images/images-login-register/Salon_Image.png); */
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,12 +38,11 @@
 }
 
 .register-contentInner h1{
-    font-family: 'My Soul', cursive;
-    font-size: 50px;
-    margin-left: 13%;
+    /* font-family: 'My Soul', cursive; */
     width: 30vw;
-    /* color: #581845; */
-    color: #900C3F;
+    position: relative;
+    left: 3.5%;
+    font-size: 35px;
 }
 
 .register-contentInner-container{
@@ -88,8 +87,12 @@
     left: 8%;
 }
 
+.registerForm-content button:hover {
+    transform: scale(1.03);
+}
+
 .registerForm-btn p {
-    color: #900C3F;
+     font-size: 28px;
 }
 
 .registerForm-content .boxInput span {
@@ -99,7 +102,7 @@
     padding: 5px 0;
     font-size: 18px;
     font-weight: 900;
-    color: black;
+    color: #900C3F;
     transition: 0.5s;
     pointer-events: none;
 }
@@ -124,6 +127,7 @@
     width: 13vw;
     color: black;
     font-weight: 900;
+    font-size: 19.5px;
 }
 
 .login-link{

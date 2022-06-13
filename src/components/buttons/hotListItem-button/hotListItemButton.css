@@ -35,12 +35,6 @@
     border-radius: 5px;
 }
 
-/* .hotListItemButton-content button:hover{
-    background-color: #900c3f3c;
-} */
-
-.hotListItemButton-content-h3{
-    color: #900C3F;
-    text-transform: uppercase;
-    font-weight: 700;
+.hotListItemButton-content button:hover{
+    transform: scale(1.03);
 }

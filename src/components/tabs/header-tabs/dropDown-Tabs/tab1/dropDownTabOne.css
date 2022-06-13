@@ -27,26 +27,24 @@
 
 .dropDownTabOne-tab h2{
     /* border: 4px solid navy; */
-    font-size: 19px;
     transition: all 0.3s ease 0s;
     cursor: pointer;
-    color: #900C3F;
-    font-weight: 600;
+    width: 8.5vw;
 }
 
-.dropDownTabOne-tab h2:hover {
-    color: #9abb5e;
+.dropDownTabOne-tab h2:hover{
+    transform: scale(1.03);
 }
 
 .dropDownTabOne-header h3{
-    color: #900C3F;
     margin-left: 17.2%;
-    font-size: 23px;
     position: relative;
     top: 0;
     left: -17.9rem;
-    width: 8vw;
+    width: 10vw;
     margin-bottom: .5rem;
+    font-family: 'My Soul', cursive;
+    font-weight: bold;
 }
 
 .dropDownTabOne-content{

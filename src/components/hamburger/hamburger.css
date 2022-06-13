@@ -72,8 +72,15 @@
     top: 0;
     left: 0;
     transition: 350ms;
+    display: grid;
+    grid-template-rows: auto;
+
 }
 
+.hamMenuItems-header{
+    background-color: #900C3F;
+    border: 4px solid yellowgreen;
+}
 
 
 

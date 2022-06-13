@@ -11,7 +11,7 @@
 
 .login-content{
     margin: 3rem 0;
-    background-image: url(../../../images/images-content/backgrounds/background_image.png);
+    background-image: url(../../../images/images-background/background_image6.png);
     /* background-image: url(../../../images/images-login-register/Salon_Image.png); */
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,12 +38,9 @@
 }
 
 .login-contentInner h1{
-    font-family: 'My Soul', cursive;
-    font-size: 50px;
-    margin-left: 21%;
+    /* font-family: 'My Soul', cursive; */
+    font-size: 35px;
     width: 30vw;
-    /* color: #581845; */
-    color: #900C3F;
 }
 
 .login-contentInner-container{
@@ -79,7 +76,7 @@
     color: #900C3F;
     height: 5vh;
     border: none;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #4D0B2A;
     outline: none;
     margin-top: 3rem;
     background: none;
@@ -91,11 +88,16 @@
     position: absolute;
     top: 77%;
     left: 10%;
+    font-weight: 700;
 }
 
-.loginForm-btn p {
-    color: #900C3F;
+.loginForm-content button p{
+   font-size: 27px;
 }
+
+.loginForm-content button:hover{
+    transform: scale(1.03);
+ }
 
 .loginForm-content .inputBox span {
     position: absolute;
@@ -104,9 +106,9 @@
     padding: 5px 0;
     font-size: 18px;
     font-weight: 900;
-    color: black;
     transition: 0.5s;
     pointer-events: none;
+    color: #900C3F;
 }
 
 .loginForm-content .inputBox input:focus ~ span,

@@ -48,12 +48,10 @@
 }
 
 .contactUs-contactInfo h1{
-    color: black;
-    margin: 10px 0;
+    margin: 7px 0;
     font-size: 24px;
     font-weight: 900;
     text-transform: uppercase;
-    text-decoration: underline;
 }
 
 .contactUs-contactInfo-ul{
@@ -128,7 +126,7 @@
 
 .contactUs-contactForm-content{
     position: absolute;
-    top: 15%;
+    top: 13%;
     left: 16.5%;
     padding: 85px 11rem;
     background: linear-gradient(rgba(171, 40, 97, 0.657), rgba(255, 255, 255, 0.466));
@@ -138,11 +136,11 @@
 }
 
 .contactUs-contactForm-content h1{
-    color: black;
     font-size: 24px;
     font-weight: 900;
     text-transform: uppercase;
-    text-decoration: underline;  
+    position: relative;
+    top: 0;
 }
 
 .contactUs-formBox{

@@ -34,7 +34,9 @@ useEffect(() => {
               <div className="login-content">
                   {isLoading && <LoadingBox></LoadingBox>}   
                   <div className="login-contentInner glass-l"> 
-                            <h1>Welcome Back:</h1>
+                            <h1>Welcome Back</h1>
+                            <br/>
+                            <br/>
                       <div className="login-contentInner-container">
             <form className="loginForm-content" onSubmit={loginHandler}>           
                     <div className="inputBox w50">
@@ -59,7 +61,7 @@ useEffect(() => {
                       Are You New Member? {""}
                       <Link to="/register" className="register-link">Create An Account</Link>
                    </div>
-                   <button className="loginForm-btn"><p>SignIn</p></button>
+                   <button className="loginForm-btn glass"><p>SignIn</p></button>
         </form>
                       </div>
                   </div>

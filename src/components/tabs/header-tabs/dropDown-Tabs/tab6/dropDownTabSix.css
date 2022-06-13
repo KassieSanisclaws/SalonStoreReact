@@ -27,26 +27,18 @@
 
 .dropDownTabSix-tab h2{
     /* border: 4px solid navy; */
-    font-size: 19px;
     transition: all 0.3s ease 0s;
-    cursor: pointer;
-    color: #900C3F;
-    font-weight: 600;
-}
-
-.dropDownTabSix-tab h2:hover {
-    color: #9abb5e;
 }
 
 .dropDownTabSix-header h3{
-    color: #900C3F;
     margin-left: 65.2%;
-    font-size: 23px;
     position: relative;
     top: 0;
     left: -17.9rem;
     width: 8vw;
     margin-bottom: .5rem;
+    font-family: 'My Soul', cursive;
+    font-weight: bold;
 }
 
 .dropDownTabSix-content{

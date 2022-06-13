@@ -36,7 +36,9 @@ return (
        <div className="register-section-conatiner">
           <div className="register-content">
               <div className="register-contentInner glass-r">
-                    <h1>Become Our Member:</h1>
+                    <h1>Become Our Member</h1>
+                    <br/>
+                    <br/>
                  <div className="register-contentInner-container">     
          <form className="registerForm-content" onSubmit={registerHandler}>
              <div className="boxInput words50">
@@ -83,7 +85,7 @@ return (
                Are You New Member? {""}
                <Link to="/login" className="login-link">Sign In</Link>
             </div>
-            <button className="registerForm-btn"><p>Register</p></button>   
+            <button className="registerForm-btn glass"><p>Register</p></button>   
           </form>
                  </div>
               </div>

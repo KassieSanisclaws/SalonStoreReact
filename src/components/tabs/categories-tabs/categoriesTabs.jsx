@@ -9,17 +9,17 @@ export const CategpriesTabs = () => {
          <div className="categoriesTabs-section">
              <div className="categoriesTabs-section-container">              
                      <div className="categoriesTabs-content">
-                       <ul>
-                           <li><Link to="/"><h2>Baby Girl</h2></Link></li>
-                           <li><Link to="/"><h2>Baby Boy</h2></Link></li>
-                           <li><Link to="/"><h2>Toddler Girl</h2></Link></li>
-                           <li><Link to="/"><h2>Toddler Boy</h2></Link></li>
-                           <li><Link to="/"><h2>Girl</h2></Link></li>
-                           <li><Link to="/"><h2>Boy</h2></Link></li>
-                           <li><Link to="/"><h2>Matching Outfits</h2></Link></li>
-                           <li><Link to="/"><h2>Maternity Nursing</h2></Link></li>
-                           <li><Link to="/"><h2>Home Baby Gear</h2></Link></li>
-                           <li><Link to="/shoes"><h2>Shoe Accessories</h2></Link></li>
+                       <ul >
+                           <li className="glass"><Link to="/"><h2>Baby Girl</h2></Link></li>
+                           <li className="glass"><Link to="/"><h2>Baby Boy</h2></Link></li>
+                           <li className="glass"><Link to="/"><h2>Toddler Girl</h2></Link></li>
+                           <li className="glass"><Link to="/"><h2>Toddler Boy</h2></Link></li>
+                           <li className="glass"><Link to="/"><h2>Girl</h2></Link></li>
+                           <li className="glass"><Link to="/"><h2>Boy</h2></Link></li>
+                           <li className="glass"><Link to="/"><h2>Matching Outfits</h2></Link></li>
+                           <li className="glass"><Link to="/"><h2>Maternity Nursing</h2></Link></li>
+                           <li className="glass"><Link to="/"><h2>Home Baby Gear</h2></Link></li>
+                           <li className="glass"><Link to="/shoes"><h2>Shoe Accessories</h2></Link></li>
                        </ul>
                      </div>
              </div>

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import TopBar from "./components/headers/topbar/topbar";
 import "./App.css";
@@ -14,7 +14,6 @@ import HotListItemScreen  from "./routes/pages/screens/hotListItems-screen/hotLi
 
 
 const App = () => { 
-const [hamburgerDisplayOpen, setHamburgerDisplayOpen] = useState(false);
   return (  
   <BrowserRouter>
       <div className="grid-section-container">

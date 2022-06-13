@@ -25,14 +25,12 @@
 }
 
 .dropDownMenu-tabs h2 {
-   font-size: 20.5px;
+   /* border: 4px solid greenyellow; */
    transition: all 0.3s ease 0s;
-   cursor: pointer;
-   color: #900C3F;
 }
 
-.dropDownMenu-tabs h2:hover {
-   color: #9abb5e;
+.dropDownMenu-tabs h2:hover{
+    transform: scale(1.03);
 }
 
 .dropDownMenu-tabs{
@@ -41,45 +39,45 @@
 }
 
 .dropDownMenu-gridHeader1 h3{
-    color: #900C3F;
     margin-left: 17%;
-    font-size: 23px;
+    font-family: 'My Soul', cursive;
+    font-weight: bold;
 }
 
 .dropDownMenu-gridHeader2 h3{
-   color: #900C3F;
    margin-left: 25.7%;
-   font-size: 23px;
+   font-family: 'My Soul', cursive;
+   font-weight: bold;
 }
 
 .dropDownMenu-gridHeader3 h3{
-    color: #900C3F;
     margin-left: 35%;
-    font-size: 23px;
+    font-family: 'My Soul', cursive;
+    font-weight: bold;
 }
 
 .dropDownMenu-gridHeader4 h3{
-    color: #900C3F;
     margin-left: 46.1%;
-    font-size: 23px;
+    font-family: 'My Soul', cursive;
+    font-weight: bold;
 }
 
 .dropDownMenu-gridHeader5 h3{
-    color: #900C3F;
     margin-left: 56.4%;
-    font-size: 23px;
+    font-family: 'My Soul', cursive;
+    font-weight: bold;
 }
 
 .dropDownMenu-gridHeader6 h3{
-    color: #900C3F;
     margin-left: 72.2%;
-    font-size: 23px;
+    font-family: 'My Soul', cursive;
+    font-weight: bold;
 }
 
 .dropDownMenu-gridHeader7 h3{
-    color: #900C3F;
     margin-left: 80.7%;
-    font-size: 23px;
+    font-family: 'My Soul', cursive;
+    font-weight: bold;
 }
 
 .dropDownMenu{

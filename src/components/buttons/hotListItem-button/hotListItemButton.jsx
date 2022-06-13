@@ -10,7 +10,7 @@ const HotListItemButton = () => {
                  <div className="hotListItemButton-section-container">
                      <div className="hotListItemButton-content">
                          <Link to="/login">
-                         <button className="hotListItemButton-content-h3"><h3>View More</h3></button>  
+                         <button className="glass"><h3>View More</h3></button>  
                          </Link>
                         
                      </div>  

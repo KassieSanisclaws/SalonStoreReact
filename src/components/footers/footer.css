@@ -62,14 +62,201 @@
 }
 
 .footer-contentInner-socialMedia{
-    background-color: aqua;
-    height: 48vh;
+    height: 100%;
     width: 100%;
 }
 
 
-.socialMedia-card{
-    background-color: yellowgreen;
-    height: 15vh;
+.socialMedia-card-content{
+    /* border: 4px solid maroon; */
+    height: 100%;
+    width: 21.5vw; 
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.cardFront-content{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: -1rem;
+    
+}
+
+.cardFront-header{
+   /* border: 2px solid midnightblue; */
+   background-color: #900c3f44;
+   height: 5vh;
+   width: 21vw;
+   overflow: hidden;
+   border-radius: 20px
+}
+
+.cardFront-header h2{
+    text-transform: uppercase;
+    height: 100%;
+    margin: 10px 0; 
+}
+
+.cardFront-imgContainer{
+    height: 20vh;
     width: 10vw;
+    border-radius: 50%;
+    margin: 0 7rem;
+    background-image: url(../../images/images-aboutUs-content/Salon_image-32.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.cardFront-socialMedia-iconTags{
+    /* border: 4px solid lawngreen; */
+    height: 9vh;
+    width: 20vw;
+    margin: 0 .7rem;
+}
+
+.cardFront-socialMedia-iconTags ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    height: 100%;
+    justify-content: space-evenly; 
+}
+
+.cardFront-socialMedia-iconTags li{
+    height: 6vh;
+    width: 3vw;
+    border-radius: 50%;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.iconTag-facebook{
+    background-image: url(../../images/images-icons/icons2/facebook_icon.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.iconTag-instagram{
+    background-image: url(../../images/images-icons/icons2/instagram_icon.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.iconTag-tikTok{
+   background-image: url(../../images/images-icons/icons2/tiktok_icon.png);
+   background-position: center;
+   background-size: cover;
+}
+
+.iconTag-twitter{
+    background-image: url(../../images/images-icons/icons2/twiutter_icon.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.iconTag-snapChat{
+    background-image: url(../../images/images-icons/icons2/snapchat_icon.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.cardFront-footer{
+    background-color: #900c3f44;
+    width: 21vw;
+    overflow: hidden;
+    border-radius: 20px
+}
+
+.cardBack-content{
+    border: 4px solid rgba(128, 128, 128, 0.319);
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.cardBack-contentSection{
+    background-image: url(../../images/images-aboutUs-content/Salon_image-32.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.cardBack-socialLinks{
+      /* border: 4px solid lawngreen; */
+      display: grid;
+      grid-template-rows: auto;
+      grid-gap: .7rem;
+}
+
+.cardBack-socialLinks li{
+   list-style: none;
+}
+
+.cardBack-socialLinks p{
+    font-size: 20px;
+    margin: 1.3rem 2rem;
+}
+
+.iconTag-facebook-container{
+    height: 8.3vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.iconTag-instagram-container{
+    height: 8.3vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.iconTag-tikTok-container{
+    height: 8.3vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.iconTag-twitter-container{
+    height: 8.3vh;
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+}
+
+.iconTag-snapChat-container{
+    height: 8.3vh;
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+}
+
+.cardBack-socialLinks li{
+    height: 8vh;
+    width: 4vw;
+    border-radius: 50%;
+    margin: 4px 0;
+    overflow: hidden;
+}
+
+.cardBack-footer{
+    background-color: #900c3f44;
+    height: 3vh;
+    width: 21vw;
+    overflow: hidden;
+    border-radius: 20px 
+}
+
+.footer-copyRight{
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-copyRight h3{
+
 }

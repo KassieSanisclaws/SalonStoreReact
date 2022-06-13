@@ -22,6 +22,10 @@
    height: 100%; 
 }
 
+.categoriesTabs-content h2{
+   margin: 5px 0;
+}
+
 .categoriesTabs-content ul{
     /* border: 4px solid crimson; */
     list-style: none;
@@ -33,17 +37,16 @@
  }
 
 .categoriesTabs-content li{
-    border: 3px solid grey;
-    width: 12.9vw;
+    border: 3px solid rgba(128, 128, 128, 0.536);
+    width: 12vw;
     height: 8.5vh;
-    margin: 0 25px;
+    margin: 5px 25px;
     border-radius: 7px;
     padding: 23px;
     text-align: center;
     overflow: hidden;
     transition: all 0.2s ease-in;
  }
-
 
  .categoriesTabs-content li:hover{
    /* border: 4px solid blue; */
